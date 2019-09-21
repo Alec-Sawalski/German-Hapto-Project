@@ -108,10 +108,10 @@ Bar Graph:
 
 #### BS.Month - Month the blood sample was taken
 
-8.8% were taken in June, 13.1% were taken in July, 18.3% were taken in August, 12.2% were taken in September, 19.2% were taken in October, 19.0% were taken in November, 9.2% were taken in December
+43.7% were taken in the warm months (July, August, September), 56.3% were taken in the cooler months (June, November, December).
 
 Bar Graph:
-<img src="https://user-images.githubusercontent.com/52465712/60672203-0db77580-9e75-11e9-9701-1b250ff4da12.png" width="300">
+<img src="https://user-images.githubusercontent.com/52465712/65374236-3ddd0c00-dc4d-11e9-98a2-10a837a3658d.png" width="300">
 
 
 #### Hapto.0.1 - is this cow's haptoglobin level above 0.1? 1 = yes (>0.1), 0 = no (<0.1)
