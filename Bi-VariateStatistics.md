@@ -1373,7 +1373,7 @@ Proportion Bar Graph:
 #  1 107 204
 ```
 Proportion Bar Graph:
-<img src="https://user-images.githubusercontent.com/52465712/61131820-71b3ec80-a4ba-11e9-85f1-01315d5e5346.png" width="300">
+<img src="https://user-images.githubusercontent.com/52465712/65378092-a04c0180-dc79-11e9-8fa8-e2208e76bf31.png" width="300">
 
 
 
