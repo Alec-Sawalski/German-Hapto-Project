@@ -487,18 +487,17 @@ Box plots:
 
 
 
-#### Hapto ~ BS.Month - Seeing if the month the blood sample was taken in has any ties with the cow's hapto levels
+#### Hapto ~ BS.Month_warm - Seeing if the month the blood sample was taken in has any ties with the cow's hapto levels
 ```r
 #  Estimate Std. Error t value Pr(>|t|)    
-#(Intercept)       6.3227     0.3127  20.219  < 2e-16 ***
-#  BS.Month07-2018   1.3364     0.4050   3.300  0.00102 ** 
-#  BS.Month08-2018   1.8506     0.3805   4.863 1.43e-06 ***
-#  BS.Month09-2018   1.6428     0.4106   4.001 6.97e-05 ***
-#  BS.Month10-2018   0.8946     0.3778   2.368  0.01816 *  
-#  BS.Month11-2018   0.6158     0.3787   1.626  0.10439    
-#BS.Month12-2018   0.4510     0.4372   1.032  0.30264    
-#---
+#  (Intercept)      6.9099     0.1242  55.624  < 2e-16 ***
+#  BS.Month_warm1   1.0515     0.1880   5.594 3.16e-08 ***
+#  ---
 #  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+#Residual standard error: 2.488 on 710 degrees of freedom
+#Multiple R-squared:  0.04222,	Adjusted R-squared:  0.04087 
+#F-statistic:  31.3 on 1 and 710 DF,  p-value: 3.162e-08
 ```
 - We find that, at a significance level of 0.05, this association is: Statistically Significant
 
@@ -1342,42 +1341,36 @@ Proportion Bar Graph:
 
 
 
-#### Hapto.0.35 ~ BS.Month - Seeing whether the month where the blood sample was taken has any ties to high or low hapto levels (cutoff: 0.35)
+#### Hapto.0.35 ~ BS.Month_warm - Seeing whether the month where the blood sample was taken has any ties to high or low hapto levels (cutoff: 0.35)
 ```r
+##Coefficients:
 #Estimate Std. Error z value Pr(>|z|)    
-#(Intercept)      -2.2513     0.4291  -5.246 1.55e-07 ***
-#BS.Month07-2018   1.4091     0.4850   2.905 0.003671 ** 
-#  BS.Month08-2018   1.8011     0.4650   3.873 0.000108 ***
-#  BS.Month09-2018   1.5060     0.4866   3.095 0.001971 ** 
-#  BS.Month10-2018   1.0218     0.4752   2.150 0.031543 *  
-#  BS.Month11-2018   0.8650     0.4801   1.802 0.071569 .  
-#BS.Month12-2018   0.7472     0.5348   1.397 0.162360    
-#---
+#(Intercept)     -1.4531     0.1274 -11.404  < 2e-16 ***
+#  BS.Month_warm1   0.8078     0.1746   4.627 3.71e-06 ***
+#  ---
 #  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-#                  OR     2.5 %     97.5 %
-#(Intercept)     0.1052632 0.04056919  0.2249113
-#BS.Month07-2018 4.0923075 1.67725134 11.5742076
-#BS.Month08-2018 6.0562497 2.60447998 16.6107409
-#BS.Month09-2018 4.5084744 1.84157303 12.7859197
-#BS.Month10-2018 2.7783018 1.16421752  7.7352796
-#BS.Month11-2018 2.3749999 0.98328239  6.6601502
-#BS.Month12-2018 2.1111110 0.76314390  6.4320167
+#(Dispersion parameter for binomial family taken to be 1)
+
+#Null deviance: 811.57  on 711  degrees of freedom
+#Residual deviance: 789.77  on 710  degrees of freedom
+#AIC: 793.77
+
+#Number of Fisher Scoring iterations: 4
+
+#                      OR     2.5 %    97.5 %
+#(Intercept)    0.2338462 0.1809271 0.2983565
+#BS.Month_warm1 2.2429696 1.5957803 3.1660030
 ```
-- We find that, at a significance level of 0.05, this association is: Statistically Significant (for the first four months)
-- If a cow was sampled during July, August, or September, they are more likely to have a high hapto level than a cow who was sampled in June. 
+- We find that, at a significance level of 0.05, this association is: Statistically Significant
+- If the blood sample was taken during a warm month (July, August, or September) the cow the sample was taken from is more likely to have a high hapto value compared to during the cold months (June, October, November, or December).
 
 
 2x2 table
 ```r
-#            1   0
-#06-2018  6   57
-#07-2018  28  65
-#08-2018  51  80
-#09-2018  28  59
-#10-2018 31  106
-#11-2018 27  108
-#12-2018  12  54
+#      1   0
+#  0  76 325
+#  1 107 204
 ```
 Proportion Bar Graph:
 <img src="https://user-images.githubusercontent.com/52465712/61131820-71b3ec80-a4ba-11e9-85f1-01315d5e5346.png" width="300">
