@@ -357,7 +357,7 @@ plot(allEffects(Hapto_BS.Month2))
 
 # Now towards the full model for Hapto.log, but first:
 
-# Creating A Baseline Model For Hapto Log
+# Creating A Baseline Model For Hapto.Log
 
 First we want to create a baseline model with no additional variables besides the variables that can counter-act the nesting effects, in this case CowID and Farm.No
 
@@ -372,7 +372,7 @@ plot(baselineLM)
 <img src="https://user-images.githubusercontent.com/52465712/62807608-5ccb7880-babb-11e9-998e-eb729681624e.png" width="300">
 
 
-#Creating A Linear Regression Model for Hapto.Log By Removing One Variable At A Time
+# Creating A Linear Regression Model for Hapto.Log By Removing One Variable At A Time
 # Creating a Linear Regression Model For Hapto.Log using backward step elimination (removing one variable at a time based on highest P-value)
 
 Now we take our baseline model for Hapto.Log and add all the variables that had a p-value below 0.1 in the bi-variate analysis and didn't have a correlation above 0.7.
