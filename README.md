@@ -65,8 +65,6 @@ These variables consist of:
 and additional variables generated for the analysis
 ```r
 ####### Getting to know the Variables #########
-names(hp6)
-
 
 #ISO - Cow identification Number (2.76e+14)
 #BLOOD_DATE - Date the blood sample was taken ("2018-02-06")
