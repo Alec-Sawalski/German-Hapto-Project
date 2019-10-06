@@ -14,6 +14,8 @@
 
 [Creating A Logistic Regression Model For Hapto0.35 By Removing One Variable At A Time](#creating-a-logistic-regression-model-for-hapto-035-by-removing-one-variable-at-a-time)
 
+[k-means clustering to re-evaluate the cut-off value for Haptoglobin](#k-means-clustering)
+
 
 # Preparing Our Data
 First we have to set our working directory and load in our dataset
@@ -501,7 +503,7 @@ but there is still at least one statsitically significant linear association une
 
 
 
-
+# creating-a-logistic-regression-model-for-hapto-035-by-removing-one-variable-at-a-time
 # Repeat multiple variable analysis as logitic regression model
 # Logistic regression model for Hapto0.35 as outcome variable
 
@@ -523,7 +525,7 @@ plot(baselineLM2)
 
 
 -----------
-# Creating a Logistic Regression Model For Hapto 035 By Removing One Variable At A Time
+# Creating A Logistic Regression Model For Hapto0.35 By Removing One Variable At A Time
 
 Now we take our baseline model for Hapto.0.35 and add all the variables that had a p-value below 0.1 in the bi-variate analysis and didn't have a correlation above 0.7.
 note: such a model is too complex for this data set and does not converge, therefore, we use the final variables from the linear regression and add the interaction terms
@@ -644,3 +646,8 @@ plot(Hapto0.35_10)
 # the downward trend in the residual over fitted plot is a commonly seen pattern implying that not all variance in the data set has been extracted by the model.
 
 # This concludes the multiple variable regression analysis.
+
+
+# k-means clustering
+
+
