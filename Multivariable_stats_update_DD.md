@@ -529,6 +529,7 @@ Hapto0.35_10 <- glmer(data = hp9, Hapto0.35 ~ MS.Milk.Yield  +
 
 summary(Hapto0.35_10)
 
+#                     Estimate Std. Error        df t value Pr(>|t|)    
 #(Intercept)          5.75753    3.35422   1.717 0.086070 .  
 #MS.Milk.Yield       -0.02844    0.01778  -1.600 0.109666    
 #MS.Protein          -0.81294    0.35211  -2.309 0.020958 *  
@@ -573,4 +574,4 @@ plot(Hapto0.35_10)
 # k-means clustering to re-evaluate the cut-off value for Haptoglobin will follow
 # k-means-clustering
 
-
+# this R code is too complex to show here, right now. Discuss outcomes first.
