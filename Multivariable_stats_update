@@ -14,7 +14,7 @@
 
 [Creating A Logistic Regression Model For Hapto0.35 By Removing One Variable At A Time](#creating-a-logistic-regression-model-for-hapto-035-by-removing-one-variable-at-a-time)
 
-[k-means clustering to re-evaluate the cut-off value for Haptoglobin](#k-means-clustering)
+[k-means clustering to re-evaluate the cut-off value for Haptoglobin](#k-means-clustering-to-re-evaluate-the-cut-off-value-for-Haptoglobin)
 
 
 # Preparing Our Data
@@ -372,6 +372,7 @@ plot(baselineLM)
 <img src="https://user-images.githubusercontent.com/52465712/62807608-5ccb7880-babb-11e9-998e-eb729681624e.png" width="300">
 
 
+#Creating A Linear Regression Model for Hapto.Log By Removing One Variable At A Time
 # Creating a Linear Regression Model For Hapto.Log using backward step elimination (removing one variable at a time based on highest P-value)
 
 Now we take our baseline model for Hapto.Log and add all the variables that had a p-value below 0.1 in the bi-variate analysis and didn't have a correlation above 0.7.
