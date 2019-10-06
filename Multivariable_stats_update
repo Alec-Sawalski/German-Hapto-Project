@@ -4,6 +4,17 @@
 
 ## Table of Contents will follow
 
+[Preparing Our Data](#preparing-our-data) 
+
+[Creating A Baseline Model For Hapto.Log](#creating-a-baseline-model-for-hapto-log)
+
+[Creating A Linear Regression Model for Hapto.Log By Removing One Variable At A Time](#creating-a-linear-regression-model-for-hapto-log-by-removing-one-variable-at-a-time)
+
+[Creating A Baseline Model For Hapto0.35](#creating-a-baseline-model-for-hapto-035)
+
+[Creating A Logistic Regression Model For Hapto0.35 By Removing One Variable At A Time](#creating-a-logistic-regression-model-for-hapto-035-by-removing-one-variable-at-a-time)
+
+[k-means clustering](#k-means-clustering)
 
 # Preparing Our Data
 First we have to set our working directory and load in our dataset
@@ -639,6 +650,6 @@ plot(Hapto0.35_10)
 
 
 # k-means clustering to re-evaluate the cut-off value for Haptoglobin
-# k-means clustering
+# k-means-clustering
 
 
