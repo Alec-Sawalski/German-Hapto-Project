@@ -2,6 +2,7 @@
 
 --------------------------
 ## Table of Contents  
+[List of all variables in the data set](#List-of-all-variables-in-the-data-set)
 
 [Descriptive Statistics - Factor Variables](#descriptive-statistics---factor-variables)
 
@@ -11,7 +12,8 @@
 
 
 ---------
-## List of all variables in the data set, including the additional variables that were re-coded or generated
+## List of all variables in the data set 
+including the additional variables that were re-coded or generated
 
 MCS to insert table here!!!!
 
