@@ -7,7 +7,7 @@
 
 [Getting To Know Our Variables](#getting-to-know-our-variables)
 
-
+[List of variables](#list-of-variables)
 
 --------
 ## Introduction
@@ -61,3 +61,67 @@ These variables consist of:
       BS.Date, Cow.Birth.Date, Exit.Date, MS.Date.Taken, Calving.Date, MS.Date.Analyzed, CD_DATE, and MS.Time.Taken   
       
 -------
+# List of variables
+
+####### Getting to know the Variables #########
+names(hp6)
+
+#ISO - Cow identification Number (2.76e+14)
+#BLOOD_DATE - Date the blood sample was taken ("2018-02-06")
+#FARM_NO - Farm number (1.42e+10)
+#FARM_NAME - Farm name ("Stadler)
+#BIRTH_DATE - Birth date of the cow ("2015-09-07")
+#BREED - Number which represents a breed (01)
+#EXIT_DATE - Date cow died, was removed, or was sold ("2018-07-09")
+#BLOOD_NEFA - NEFA levels in the blood (ng/mL) (0.24)
+#BLOOD_BHBA - BHBA levels in the blood (ng/mL) (0.71)
+#SAMPLE_DATE - Milk sample date ("2018-02-05")
+#SAMPLE_TIME - What time the milk sample was taken ("08:07:00")
+#MILK_CALVING_DATE - Calving date ("2017-12-31")
+#MILK_CALVING_NO - How many times has the cow had a calf (1)
+#MILK_DIM - Number of days after calving the milk was sampled (36)
+#MPR_DATE - Date when lab analyzed milk sample ("2018-02-08")
+#MILK_YIELD - Milk/day in kg (26.1)
+#MILK_YIELD_SAMPLE - How much milk there was in that sample in kg (26.1)
+#MPR_FAT - %Fat of the milk (6.18)
+#MPR_PROT - %Protein of the milk (3.21)
+#MPR_SCC - Somatic cell count in thousand cells/mL in the milk (226)
+#MPR_LACTOSE - %lactose in the milk (4.82)
+#MPR_UREA - %urea found in urine (waste) (26)
+#MPR_PH - pH of milk sample (6.61)
+#MPR_NSA - Amount of non-saturated fatty acids (Micro Mole/L) (20.5)
+#MPR_ACETONE - Amount of acetone in the milk (UNIT?) (50)
+#MPR_BHBA - Amount of BHBA in milk (ng/mL) (50)
+#MPR_SNSA - Amount of monounsaturated fatty acids (Micro Mole/L) (1.752)
+#MPR_PNSA - Amount of polyunsaturated fatty acids (Micro Mole/L) (0.224)
+#MPR_SFA - Amount of short fatty acids (Micro Mole/L) (3.93)
+#MPR_PALM - Amount of palmeic fatty acids (C16, mixed FA) (Micro Mole/L) (1.57)    
+#MPR_STEA - Amout of stearine fatty acid (c18, preformed FA) (Micro Mole/L) (0.75) 
+#MPR_OL - Amount ol oleic acid (C18.1, preformed FA) (Micro Mole/L) (1.67)         
+#MPR_NEFA - Amount of NEFA in milk (ng/mL) (6.1)
+#HAPT_RESULT - Haptoglobin measurement (ng/mL) 
+#CD_Date - Clinical evaluation date (UNIT?) ("111218")
+#CD_IKT - Cow body temperature in Celsius (38.8)
+#CD_Environ_Temp - Environmental temperature in celsius (4.3)
+#CD_RFD - Level of fat on the back of the cow (mm) (16)                                      
+#CD_Skin_Elas - Skin elasticity of the cow, dehydration measurement, ("phy" - normal, "red" - reduced)               
+#CD_BauchDe - Measurement of abdominal tension (stomach ache) ("phy" - normal, "erh" - increased)
+#CD_Pans_Sc2 - Measure of how full the stomach is ("norm" = normal, "abnorm" = abnormal)
+#CD_Pans_Sch - Layering of the rumen (0 = abnormal layering, 1 = normal layering)
+#CD_SA - Movemement of fluid in the stomach ("obb" - normal, "re" - abnormal)
+#CD_PA - Ping of the stomach ("obb" - normal, "re" - abnormal)
+#CD_Kot_K2 - Waste consistency (thick, normal, thin)
+#CD_Kot_Verd - How much has been digested by the cow? ("gut" - normal, "maess" - less than good, "schl" - bad)
+#CD_LS - Locomotion Score (1 & 2 - ok, everything else - bad)
+#CD_Pans_F - Rumen Frequency ("phy" - normal, "bis_2" - less than 2 contractions/minute bad, "groe_3" - too many contractions bad >3)
+#loghapto - log of the hapto measurement (6.39)
+#hapto_hilo0.1 - boolean stating if the hapto level is high3er than 0.1 (1 - cow is >0.1, 0 - cow is <0.1)
+#hapto_hilo0.35 - boolean stating if the hapto level is higher than 0.35 (1 - cow is >0.35, 0 - cow is <0.35)
+#hapto_hml - boolean stating if the hapto level is low, med, or high (2 = clinical >1.6, 1 = subclinical 0.4<x<1.599, 0 = low healthy <0.4)
+#hapto_hl_nomed - boolean stating if the hapto level is high or low (1 = low healthy, 3 = clinical)
+#DIM_bsample - how many days after calving at which the blood sample was taken
+#bSample_MONTH - Month the blood sample was taken (11-2018)
+#Lact_cat - stating if the animal was a hfr or a cow
+#sample_diff - difference in days between the blood sampling date and the milk sampling date
+#Lame - states whether the cow is lame or not (1)
+
