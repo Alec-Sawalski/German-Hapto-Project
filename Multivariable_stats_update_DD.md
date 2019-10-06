@@ -2,7 +2,7 @@
 
 -----------
 
-## Table of Contents will follow
+## Table of Contents
 
 [Preparing Our Data](#preparing-our-data) 
 
