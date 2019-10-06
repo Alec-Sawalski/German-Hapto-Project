@@ -126,7 +126,7 @@ and additional variables generated for the analysis
 #Lame - states whether the cow is lame or not (1,2 = 0 not lame, 3,4,5 = 1 lame)
 
 # new variable for sampling time point:
-#BS.Month_warm - warm months = 1 (July-Sept), cool months = 0 (June, Oct-Dec)
+#BS.Month_warm - warm months = 1 (July-Sept), cooler months = 0 (June, Oct-Dec)
 
 
 ```
