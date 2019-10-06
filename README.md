@@ -106,11 +106,11 @@ and additional variables generated for the analysis
 #CD_RFD - Level of fat on the back of the cow (mm) (16)                                      
 #CD_Skin_Elas - Skin elasticity of the cow, dehydration measurement, ("phy" - normal, "red" - reduced)               
 #CD_BauchDe - Measurement of abdominal tension (stomach ache) ("phy" - normal, "erh" - increased)
-#CD_Pans_Sc2 - Measure of how full the stomach is ("norm" = normal, "abnorm" = abnormal)
+#CD_Pans_Sc2 - Measure of how full the stomach is ("norm" = normal, "abnorm" = abnormal) from original: 1,2,3=norm, 4,5=abnormal
 #CD_Pans_Sch - Layering of the rumen (0 = abnormal layering, 1 = normal layering)
 #CD_SA - Movemement of fluid in the stomach ("obb" - normal, "re" - abnormal)
 #CD_PA - Ping of the stomach ("obb" - normal, "re" - abnormal)
-#CD_Kot_K2 - Waste consistency (thick, normal, thin)
+#CD_Kot_K2 - Waste consistency (thick, normal, thin) from original: db, dick = thick, sup,was=thin, mb=normal
 #CD_Kot_Verd - How much has been digested by the cow? ("gut" - normal, "maess" - less than good, "schl" - bad)
 #CD_LS - Locomotion Score (1 & 2 - ok, everything else - bad)
 #CD_Pans_F - Rumen Frequency ("phy" - normal, "bis_2" - less than 2 contractions/minute bad, "groe_3" - too many contractions bad >3)
@@ -124,8 +124,8 @@ and additional variables generated for the analysis
 #Lact_cat - stating if the animal was a hfr or a cow
 #sample_diff - difference in days between the blood sampling date and the milk sampling date
 #Lame - states whether the cow is lame or not (1,2 = 0 not lame, 3,4,5 = 1 lame)
-#CD_Pans_Sc2 - rumen score (1,2,3=norm, 4,5=abnormal)
-#CD_Kot_K2  - consistency of waste (db, dick = thick, sup,was=thin, mb=normal)
+
+# new variable for sampling time point:
 #BS.Month_warm - warm months = 1 (July-Sept), cool months = 0 (June, Oct-Dec)
 
 
