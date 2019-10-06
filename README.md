@@ -33,7 +33,7 @@ This completes the formatting process
 -------
 ## Getting To Know Our Variables
 
-Our data has 712 observations and 58 variables. 
+Our data have 712 observations and 58 variables. 
 
 These variables consist of:
 - 29 Numerical Variables: 
@@ -42,7 +42,7 @@ These variables consist of:
 - 23 Factor Variables: 
       CowID, Farm.No, Farm.Name, Cow.Breed, CE.Skin.Dehydration, CE.Stom.Tension, CE.Stom.Layering, CE.Stom.Fluid.Movement, CE.Stom.Ping, CE.Waste.Consistency, CE.Waste.Digestion, CE.Locomotion.Score, CE.Stom.Noise.Freq, Hfr.or.Cow, Hapto.0.1, Hapto.0.35, Hapto.HML, Hapto.HL, CE.Lame, BS.Month, BS.BHBA.1.2, BS.NEFA.0.7, and CE.Stom.Fullness
       
-- 9 POSIX Variables: 
+- 9 POSIX Variables for Dates: 
       BS.Date, Cow.Birth.Date, Exit.Date, MS.Date.Taken, Calving.Date, MS.Date.Analyzed, CD_DATE, and MS.Time.Taken   
       
 -------
