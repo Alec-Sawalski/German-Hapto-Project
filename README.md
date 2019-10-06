@@ -14,7 +14,7 @@
 
 The aim of this data analysis is to quantify the associations between haptoglobin measures in Braunvieh and Fleckvieh cows from a data set with n=712 observations from Germany. A more detailed project description will follow soon.
 
-The data analysis is completed using a combination of R v3.6.1, Tableau and Python 3.6
+The data analysis is completed using a combination of R v3.6.1, Tableau and Python 3.6. 
 Reporting is done using knitr and github.
 
 The data analysis and reports have the following structure:
@@ -24,6 +24,8 @@ descriptive analysis,
 bivariate analysis, 
 multiple variable data analysis using linear regression and logistic regression, and 
 k-means clustering to re-assess the cut-off values for haptoglobin
+
+A brief demonstration of the Python 'pandas profiling' data exploration is added to this data analysis.
 
 
 --------
