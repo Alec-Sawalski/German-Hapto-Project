@@ -22,10 +22,11 @@ description of the data,
 lists of numeric and factor variables, 
 descriptive analysis, 
 bivariate analysis, 
+correlogram,
 multiple variable data analysis using linear regression and logistic regression, and 
 k-means clustering to re-assess the cut-off values for haptoglobin
 
-A brief demonstration of the Python 'pandas profiling' data exploration is added to this data analysis.
+A brief demonstration of the Python 'pandas profiling' data exploration is added to this data analysis in a separate folder.
 
 
 --------
