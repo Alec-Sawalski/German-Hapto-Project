@@ -62,7 +62,7 @@ Bar Graph:
 
 #### CE.Waste.Consistency - Waste Consistency, "thick", "normal", "thin"
 
-75.7% are normal, 21.0% are thick, 3.3% are thin
+75.7% are normal, 7.7% are thick, 16.6% are thin
 
 Bar Graph:
 <img src="https://user-images.githubusercontent.com/52465712/60672899-cd58f700-9e76-11e9-8f43-5333cc7827d4.png" width="300">
@@ -90,7 +90,7 @@ Bar Graph:
 
 #### CE.Stom.Fullness - Measure of how full the stomach is, "norm" = normal, "abnorm" = abnormal
 
-57.8% are normal, 42.2% are abnormal
+96% are normal, 3.5% are low, 0.5% are high
 
 Bar Graph:
 <img src="https://user-images.githubusercontent.com/52465712/60672833-b0bcbf00-9e76-11e9-9782-f37c1e63bf1c.png" width="300">
