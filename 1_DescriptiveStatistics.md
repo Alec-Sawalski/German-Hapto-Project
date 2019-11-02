@@ -2,7 +2,7 @@
 
 --------------------------
 ## Table of Contents  
-[List of all variables in the data set](#List-of-all-variables-in-the-data-set)
+[List of all variables in the data set](#list-of-all-variables-in-the-data-set)
 
 [Descriptive Statistics - Factor Variables](#descriptive-statistics---factor-variables)
 
@@ -12,14 +12,54 @@
 
 
 ---------
-## List of all variables in the data set 
-including the additional variables that were re-coded or generated
+## List Of All Variables In The Data Set
 
-MCS to insert table here!!!!
+#### Numerical Variables:
+BS.NEFA.Log
+BS.BHBA.Log
+BS.DIM
+BS.MS.Date.Diff
+Calving.No
+Milk.Yield
+MS.Milk.Yield
+MS.NEFA
+MS.BHBA.Log
+MS.DIM
+MS.Fat
+MS.Protein
+MS.Lactose
+MS.Acetone.Log
+MS.Urea
+MS.SCC.Log
+MS.pH
+MS.SFA
+MS.PFA
+MS.MFA
+MS.NSFA
+MS.Palmeic
+MS.Stearine
+MS.Oleic
+CE.Fat.Level
+CE.Temp
+CE.Environ.Temp
 
-
-
-
+#### Factor Variables:
+Cow.Breed
+Hfr.or.Cow
+BS.Month
+CE.Skin.Dehydration
+CE.Stom.Tension
+CE.Stom.Layering
+CE.Stom.Fluid.Movement
+CE.Stom.Ping
+CE.Stom.Fullness
+CE.Stom.Noise.Freq
+CE.Waste.Consistency
+CE.Waste.Digestion
+CE.Locomotion.Score
+CE.Lame
+BS.BHBA.1.2
+BS.NEFA.0.7
 
 ---------
 ## Descriptive Statistics - Factor Variables
