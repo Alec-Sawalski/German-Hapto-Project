@@ -88,7 +88,7 @@ Bar Graph:
 Bar Graph:
 <img src="https://user-images.githubusercontent.com/52465712/60672867-c03c0800-9e76-11e9-8f3f-84da012d672a.png" width="300">
 
-#### CE.Stom.Fullness - Measure of how full the stomach is, "norm" = normal, "abnorm" = abnormal
+#### CE.Stom.Fullness - Measure of how full the stomach is, "normal", "low", and "high"
 
 96% are normal, 3.5% are low, 0.5% are high
 
