@@ -105,7 +105,7 @@ Bar Graph:
 75.7% are normal, 7.7% are thick, 16.6% are thin
 
 Bar Graph:
-<img src="https://user-images.githubusercontent.com/52465712/60672899-cd58f700-9e76-11e9-8f43-5333cc7827d4.png" width="300">
+<img src="https://user-images.githubusercontent.com/52465712/68156000-7d676b00-ff10-11e9-8d12-18be57d6c463.png" width="300">
 
 #### CE.Waste.Digestion - How well food has been digested by the cow, "gut" = good, "maess" = less than good, "schl" = bad
 
@@ -133,7 +133,7 @@ Bar Graph:
 96% are normal, 3.5% are low, 0.5% are high
 
 Bar Graph:
-<img src="https://user-images.githubusercontent.com/52465712/60672833-b0bcbf00-9e76-11e9-9782-f37c1e63bf1c.png" width="300">
+<img src="https://user-images.githubusercontent.com/52465712/68156003-7e000180-ff10-11e9-9b67-3a7f1b6b4dcb.png" width="300">
 
 #### CE.Locomotion.Score - Locomotion Score, 1 & 2 = okay, 3, 4, & 5 = lame
 
