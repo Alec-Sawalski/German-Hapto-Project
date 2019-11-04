@@ -596,7 +596,7 @@ Box plots:
 - If a cow has abnormal stomach fullness, they are less likely to have high hapto levels compared to a cow with normal stomach fullness.
 
 Box plots:
-<img src="https://user-images.githubusercontent.com/52465712/60895876-aaa75380-a265-11e9-89c5-6d60f78a9a88.png" width="300">
+<img src="https://user-images.githubusercontent.com/52465712/68155999-7d676b00-ff10-11e9-9bc5-65878455fb2e.png" width="300">
 
 
 
@@ -630,7 +630,7 @@ Box plots:
 - If a cow has thick waste, they are more likely to have high hapto levels then a cow with normal waste consistency. 
 
 Box plots:
-<img src="https://user-images.githubusercontent.com/52465712/60895857-a8dd9000-a265-11e9-8063-18559095ed01.png" width="300">
+<img src="https://user-images.githubusercontent.com/52465712/68156004-7e000180-ff10-11e9-8118-3e69da504c13.png" width="300">
 
 
 
@@ -1540,7 +1540,7 @@ Proportion Bar Graph:
 #  norm   99  196
 ```
 Proportion Bar Graph:
-<img src="https://user-images.githubusercontent.com/52465712/61131826-724c8300-a4ba-11e9-9b9e-f30a81c48c16.png" width="300">
+<img src="https://user-images.githubusercontent.com/52465712/68156001-7d676b00-ff10-11e9-914f-ef4288c0bed5.png" width="300">
 
 
 
@@ -1604,7 +1604,7 @@ Proportion Bar Graph:
 #thin    3  20
 ```
 Proportion Bar Graph:
-<img src="https://user-images.githubusercontent.com/52465712/61131829-72e51980-a4ba-11e9-8302-27c8b2cf61b7.png" width="300">
+<img src="https://user-images.githubusercontent.com/52465712/68156002-7e000180-ff10-11e9-9492-6f69e2d65e12.png" width="300">
 
 
 
